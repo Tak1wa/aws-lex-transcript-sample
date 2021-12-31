@@ -1,0 +1,71 @@
+{
+    "Participants": [
+        {
+            "ParticipantId": "C001",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "ParticipantId": "A001",
+            "ParticipantRole": "AGENT"
+        }
+    ],
+    "Version": "1.1.0",
+    "ContentMetadata": {
+        "Output": "Raw"
+    },
+    "CustomerMetadata": {
+        "ContactId": "CON001"
+    },
+    "Transcript": [
+        {
+            "Id": "101",
+            "ParticipantId": "C001",
+            "Content": "I would like to pick up flowers"
+        },
+        {
+            "Id": "102",
+            "ParticipantId": "A001",
+            "Content": "What type of flowers would you like to order?"
+        },
+        {
+            "Id": "103",
+            "ParticipantId": "C001",
+            "Content": "roses"
+        },
+        {
+            "Id": "104",
+            "ParticipantId": "A001",
+            "Content": "What day do you want the roses to be picked up?"
+        },
+        {
+            "Id": "105",
+            "ParticipantId": "C001",
+            "Content": "tommorow"
+        },
+        {
+            "Id": "106",
+            "ParticipantId": "A001",
+            "Content": "At what time do you want the roses to be picked up?"
+        },
+        {
+            "Id": "107",
+            "ParticipantId": "C001",
+            "Content": "pm"
+        },
+        {
+            "Id": "108",
+            "ParticipantId": "A001",
+            "Content": "Okay, your roses will be ready for pickup by PM on 2022-01-01. Does this sound okay?"
+        },
+        {
+            "Id": "109",
+            "ParticipantId": "C001",
+            "Content": "okay"
+        },
+        {
+            "Id": "110",
+            "ParticipantId": "A001",
+            "Content": "bye"
+        }
+    ]
+}
